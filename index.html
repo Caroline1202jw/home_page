@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>城市建设责任规划师助手系统</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #1e88e5 0%, #0d47a1 100%);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .letter-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        .letter-link:hover {
+            color: #f5f7fa;
+        }
+        nav {
+            background-color: white;
+            padding: 10px;
+            text-align: right;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #1e88e5;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #0d47a1;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            font-size: 36px;
+            color: #1e88e5;
+            margin-bottom: 10px;
+        }
+        .intro {
+            font-size: 24px;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .grid-item {
+            background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            text-align: center;
+        }
+        .grid-item:hover {
+            transform: translateY(-5px);
+        }
+        .grid-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .grid-item h3 {
+            margin: 0;
+            font-size: 32px;
+            color: #1e88e5;
+        }
+        .grid-item p {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #555;
+            line-height: 1.4;
+        }
+        footer {
+            background-color: #f5f5f5;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            color: #888;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>城市建设责任规划师助手系统</h1>
+        <a href="#" class="letter-link">致责任规划师助手用户的一封信</a>
+    </header>
+    <nav>
+        <a href="#">API接入</a>
+        <a href="#">登录</a>
+        <a href="#">交流群</a>
+        <a href="#">快速入门</a>
+    </nav>
+    <main>
+        <h2>欢迎使用城市建设责任规划师助手系统</h2>
+        <p class="intro">本系统旨在利用先进的大语言模型(LLM)技术,为责任规划师提供全流程、一站式的智能辅助服务,提升规划编制、审查、管理等环节的效率和质量。</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="responsibility_planner.jpg" alt="责任规划师介绍">
+                <h3>责任规划师介绍</h3>
+                <p>责任规划师是独立于政府部门和市场主体的第三方人员,为规划、建设、管理提供专业指导和技术服务。</p>
+            </div>
+            <div class="grid-item">
+                <img src="planning_review.jpg" alt="规划审查">
+                <h3>规划审查</h3>
+                <p>利用知识图谱和规则引擎技术,实现规划文本的自动化、智能化审查,提供规范化的审查报告。</p>
+            </div>
+            <div class="grid-item">
+                <img src="document_generation.jpg" alt="文书生成">
+                <h3>文书生成</h3>
+                <p>应用自然语言生成技术,根据规划项目信息自动生成规范化的规划文本,提供各类文书模板。</p>
+            </div>
+            <div class="grid-item">
+                <img src="expert_consultation.jpg" alt="专家咨询">
+                <h3>专家咨询</h3>
+                <p>提供在线专家咨询服务,整合规划领域专家资源,为规划师提供权威的技术指导。</p>
+            </div>
+            <div class="grid-item">
+                <img src="data_service.jpg" alt="数据服务">
+                <h3>数据服务</h3>
+                <p>提供规划基础数据的一站式查询、下载服务,建立集成案例、政策、规范、文献、投资的综合数据库。</p>
+            </div>
+            <div class="grid-item">
+                <img src="more_features.jpg" alt="更多功能">
+                <h3>更多功能</h3>
+                <p>智能助手还提供个性化定制、在线培训、项目管理等更多增值服务,全面赋能规划师的工作实践。</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        本服务生成内容由AI生成,我们不能保证生成内容无误、准确和完整。相关内容仅为您提供辅助参考,并不代表专业意见,不能代替规划专业人员的解答。<br>
+        服务协议 | 隐私政策 | 联系我们<br>
+        京公网安备 11010802063975号 | 网信算备 110108209836401230035号 | 京ICP备08010101号<br>
+        &copy; 2024 城市建设责任规划师助手系统. All rights reserved.
+    </footer>
+</body>
+</html>
